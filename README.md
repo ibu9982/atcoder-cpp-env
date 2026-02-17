@@ -40,7 +40,7 @@ AtCoderコンテスト用のC++開発環境です。Dev Container を使用し�
 ATCODER_REVEL_SESSION=your_session_value_here
 ```
 
-4. VS Codeで「開発コンテナ-:コンテナのリビルド(Rebuild Container)」を実行
+4. VS Codeで「開発コンテナー:コンテナのリビルド(Rebuild Container)」を実行
 
 > ⚠️ `.env` ファイルは `.gitignore` に含まれているため、Gitにコミットされません。
 
