@@ -1,0 +1,28 @@
+{
+	"name": "atcoder-cpp",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--env-file",
+		".devcontainer/.env",
+		"--hostname",
+		"atcoder-env",
+		"--memory",
+		"1g"
+	],
+	"workspaceFolder": "/atcoder",
+	"postCreateCommand": "bash .devcontainer/setup.sh",
+	"workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,consistency=cached",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"oderwat.indent-rainbow",
+				"shardulm94.trailing-spaces",
+				"shd101wyy.markdown-preview-enhanced",
+				"vadimcn.vscode-lldb"
+			]
+		}
+	}
+}

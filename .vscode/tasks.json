@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build c++ for AtCoder",
+			"type": "shell",
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"command": "g++",
+			"args": [
+				"${file}",
+				"-o",
+				"${env:OUTPUT_PATH}",
+				"-std=c++23",
+				"-g",
+				"-O0",
+				"-Wall",
+				"-Wextra"
+			],
+			"presentation": {
+				"reveal": "always",
+				"close": true
+			},
+			"group": "build",
+		}
+	]
+}
