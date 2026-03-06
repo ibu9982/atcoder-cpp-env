@@ -1,6 +1,6 @@
 # AtCoder C++ 開発環境
 
-AtCoderコンテスト用のC++開発環境です。Dev Container を使用してセットアップされています。
+自分用に調整したAtCoderコンテスト用のC++開発環境です。Dev Container を使用してセットアップされています。
 
 ## 🐳 Docker環境
 
